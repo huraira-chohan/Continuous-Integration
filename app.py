@@ -14,3 +14,4 @@ st.write(f"Cube of {n} is {cube}.")
 st.write(f"Fifth of {n} is {fifth}.")
 
 
+    
