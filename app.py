@@ -1,17 +1,14 @@
 import streamlit as st
 
 st.title("Power Calculator")
-st.write("Cal power of numbers.")
+st.write("Enter a number to cal its sq, cube and 5th power : ")
+n = st.number_input("Enter any integer : ",value=1,step=1)
 
-n = st.number_input("Enter any number :",value=1,step=1)
-
-square = n**2
-cube = n**3
+square = n*n
+cube = n*n*n
 fifth = n**5
 
-st.write(f"Square of {n} is {square}.")
-st.write(f"Cube of {n} is {cube}.")
-st.write(f"Fifth of {n} is {fifth}.")
+st.write(f"Square is {square}")
+st.write(f"Cube is {cube}")
+st.write(f"Fifth power is {fifth}")
 
-
-    
